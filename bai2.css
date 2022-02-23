@@ -1,0 +1,147 @@
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 2px gray;
+}
+
+.menu > ul > ul > a {
+    line-height: 30px;
+
+}
+
+aside ul li a,
+.menu ul ul a {
+    display: block;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container > header {
+    background-image: url(./IMG_2202-1-scaled.jpg);
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 25%;
+}
+
+header {
+    position: relative;
+}
+
+.fpt {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 18px;
+}
+
+
+.container > article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+.container > aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: #fff;
+    float: right;
+}
+
+.container > footer {
+    border-top: 5px double orangered;
+    background-color: lightcyan;
+    line-height: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+aside ul li {
+    background-color: #fff;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+aside a {
+    border: 1px solid #ccc;
+}
+
+.aside_ds {
+    padding: 3px 0;
+    margin: 0;
+} 
+
+aside ul li a {
+    background: url('/FPT Polytechnic/html/Bai Lab/lab8/menu.png') no-repeat 5px center;
+    background-size: 16px;
+    padding: 8px 34px;
+}
+
+aside ul li:hover a {
+    background: url('/FPT Polytechnic/html/Bai Lab/lab8/menu.2.png') no-repeat 8px center;
+    background-size: 14px;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+}
